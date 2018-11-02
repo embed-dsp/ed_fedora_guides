@@ -6,14 +6,14 @@
 # $Date:     $
 # $Revision: $
 
-# Build directory
-/build*/
-
-# Temporary directory
-tmp/
-
-# Work directory
+# Directories
+build*/
+dist/
+install/
 work/
+tmp/
+__pycache__/
+src/
 
 # Backup files
 *~
@@ -26,4 +26,3 @@ work/
 
 # Java class files
 *.class
-/dist/
